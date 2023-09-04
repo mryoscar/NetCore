@@ -1,0 +1,21 @@
+Messages:
+  console: "&8➥ &cEste comando solo puede ser ejecutado por jugadores!"
+  usage: "&8➥ &cUtiliza: &e/netcore help"
+  noPermission: "&8➥ &cUsted no tiene permisos para utilizar esto!"
+  noPlayer: "&8➥ &cEste jugador no existe o no esta conectado!"
+  reload: "&8➥ &aEl &bNet&fCore &afue recargado correctamente!"
+  ping: "&8➥ &fTu conexión es de &a%player_ping%ms"
+  deny-message: "&8➥ &cNo puedes hacer eso!"
+
+GameMode:
+  usage: "&8➥ &cUsa: &e/gamemode <modo> [jugador]"
+  noExist: "&8➥ &cEste modo de juego no existe!"
+  change: "&8➥ &fTu modo de juego a cambiado a &a%gamemode%&f!"
+  otherChange: "&8➥ &fEl modo de juego de &a%player% &facaba de cambiar a &a%gamemode%&f!"
+
+Join:
+  vip: "&8→ &7¡%vault_prefix% %player_name% &fse unio al servidor!"
+  nessy: "&8→ &7¡%vault_prefix% %player_name% &faterrizó en el servidor!"
+  poseidon: "&8→ &7¡%vault_prefix% %player_name% &facaba de deslumbrar al servidor!"
+  media: "&8→ &7¡%vault_prefix% %player_name% &fllegó a dar vida al servidor!"
+  staff: "&8→ &7¡%vault_prefix% %player_name% &facaba de entrar al servidor de manera épica!"

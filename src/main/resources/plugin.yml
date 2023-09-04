@@ -1,0 +1,39 @@
+name: NetCore
+version: '${project.version}'
+main: net.nessymc.netcore.NetCore
+api-version: '1.19'
+depend: [PlaceholderAPI, Vault]
+softdepend: [PlaceholderAPI]
+authors: [SuperYoscar]
+description: NetCore desarrollado por NessyStudio
+website: https://nessystudios.net
+
+commands:
+  netcore:
+    description: Comando principal del plugin
+  nc:
+    description: Comando principal del plugin
+  fly:
+    description: Comando para volar en el lobby
+  spawn:
+    description: Comando para teletransportarte al spawn
+  ping:
+    description: Mira tu conexíon en el servidor.
+  gamemode:
+    description: Cambia tu modo de juego en el servidor
+  gm:
+    description: Cambia tu modo de juego en el servidor
+  discord:
+    description: Social Media Command
+  dc:
+    description: Social Media Command
+  twitter:
+    description: Social Media Command
+  youtube:
+    description: Social Media Command
+  yt:
+    description: Social Media Command
+  store:
+    description: Social Media Command
+  tienda:
+    description: Social Media Command

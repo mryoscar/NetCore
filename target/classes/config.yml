@@ -1,0 +1,118 @@
+SpawnSystem:
+  set: "&8➥ &aEl spawn del servidor acaba de ser configurado correctamente!"
+  title: "&a&lSISTEMA DE SPAWN"
+  subTitle: "&7¡Spawn configurado con exito!"
+  noSet: "&8➥ &cNo hay un spawn configurado en el servidor!"
+  send: "&8➥ &aEstas siendo enviado al spawn del servidor!"
+
+Flight:
+  activated: "&8➥ &aEl modo vuelo fue activado."
+  deactivated: "&8➥ &cEl modo vuelo fue desactivado."
+  #
+  activated-title: "&8>> &b&lVUELO &8<<"
+  activated-subtitle: "&7¡El modo vuelo fue &aactivado&7!"
+  #
+  deactivated-title: "&8>> &b&lVUELO &8<<"
+  deactivated-subtitle: "&7¡El modo vuelo fue &cdesactivado&7!"
+
+Scoreboard:
+  title: "&b&lNESSYMC &f&lNETWORK"
+  lines:
+    - "&7"
+    - " &fHola &8→ &e%player_name% "
+    - "&7"
+    - " &7| &fRango &8➥ %vault_prefix%"
+    - " &7| &fNivel &8➥ &cSoon"
+    - "&7"
+    - " &7| &fCajas &8➥ &cSoon"
+    - " &7| &fConexión &8➥ &e%player_ping%"
+    - "&7"
+    - " &7| &fEn línea &8➥ &e%server_online%&8/&e50"
+    - " &7| &fGlobales &8➥ &e%bungee_total%"
+    - " &7"
+    - "&7nessymc.net"
+
+TabList:
+  tags: " %alonsotags_tag_tab%"
+  header:
+    - "&7"
+    - "&b&lNESSYMC &f&lNETWORK"
+    - "&7nessymc.net"
+    - "&7"
+    - "&f¡Estrenando nuevas implementaciones en el servidor!"
+    - "&7"
+  footer:
+    - "&7"
+    - "&f¡Disfruta de tu estadía en el servidor!"
+    - "&7"
+    - " &7store.nessymc.net &8| &7nessymc.net &8| &7discord.gg/RJ5vJxnj6J "
+    - "&7"
+
+ChatFormat:
+  format: "%vault_prefix%%player_name% &8➥ &r%send_message%"
+
+ServerProtect:
+  enable: true
+  block-break:
+    - Hub
+  place-block:
+    - Hub
+  drop-item:
+    - Hub
+  pvp:
+    - Hub
+  hunger:
+    - Hub
+  weather:
+    - Hub
+  mob-spawning:
+    - Hub
+  leaf-decay:
+    - Hub
+  void-death:
+    - Hub
+
+Social:
+  discord:
+    - "&7➦ &9&lDISCORD"
+    - ""
+    - "&fUnete a nuestra comunidad de discord para estar al tanto de"
+    - "&fdel estado de la network, recibir soporte y mas!"
+    - ""
+    - "&7➥ &9https://discord.gg/RJ5vJxnj6J"
+    - ""
+  twitter:
+    - "&8➦ &b&lTWITTER"
+    - ""
+    - "&fSiguenos en Twitter para estar al tanto de"
+    - "&ffuturas actualizaciones, eventos, sorteos y mas!"
+    - ""
+    - "&7➥ &bhttps://twitter.com/NessyMC_Network"
+    - ""
+  store:
+    - "&8➦ &a&lTIENDA"
+    - ""
+    - "&fObtén artículos y mejoras especiales y unicas"
+    - "&fpara tu rango y tener una buena experiencia."
+    - ""
+    - "&7➥ &ahttps://store.nessymc.net"
+    - - ""
+  youtube:
+    - "&8➦ &c&lYOU&f&lTUBE"
+    - ""
+    - "&fSuscribete a nuestro canal de youtube para"
+    - "&festar al tanto de los trailers sobre futuras"
+    - "&factualizaciones."
+    - ""
+    - "&7➥ &ahttps://youtube.com/@NessyMCNW"
+    - ""
+
+CensoredWords:
+  - puta
+  - perra
+  - fuck
+  - pene
+  - verga
+
+
+Spawn:
